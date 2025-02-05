@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-LibraryManagementSystem",
+      "appliesTo": "LibraryManagementSystem/LibraryManagementSystem/LibraryManagementSystem.csproj",
+      "type": "msbuild"
+    },
+    {
+      "taskLabel": "task-Properties",
+      "appliesTo": "LibraryManagementSystem/LibraryManagementSystem/Properties/",
+      "type": "launch"
+    }
+  ]
+}

@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\LibraryManagementSystem",
-    "\\LibraryManagementSystem\\LibraryManagementSystem",
-    "\\LibraryManagementSystem\\LibraryManagementSystem\\Properties"
+    "\\LibraryManagementSystem\\LibraryManagementSystem"
   ],
-  "SelectedNode": "\\LibraryManagementSystem\\LibraryManagementSystem\\MainForm.cs",
+  "SelectedNode": "\\LibraryManagementSystem\\LibraryManagementSystem\\IssueBooks.cs",
   "PreviewInSolutionExplorer": false
 }

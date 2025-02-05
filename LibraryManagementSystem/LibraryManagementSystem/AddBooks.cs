@@ -15,7 +15,7 @@ namespace LibraryManagementSystem
 {
     public partial class AddBooks : UserControl
     {
-        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\WINDOWS 10\Documents\library.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection connect = new SqlConnection(@"Data Source=mPC\SQLEXPRESS01;Initial Catalog=library;Integrated Security=True;Connect Timeout=30");
 
         public AddBooks()
         {
@@ -39,22 +39,25 @@ namespace LibraryManagementSystem
         private String imagePath;
         private void addBooks_importBtn_Click(object sender, EventArgs e)
         {
-            
+
             try
             {
                 OpenFileDialog dialog = new OpenFileDialog();
                 dialog.Filter = "Image Files (*.jpg; *.png)|*.jpg;*.png";
 
-                if(dialog.ShowDialog() == DialogResult.OK)
+                if (dialog.ShowDialog() == DialogResult.OK)
                 {
                     imagePath = dialog.FileName;
                     addBooks_picture.ImageLocation = imagePath;
                 }
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+
 
         private void addBooks_addBtn_Click(object sender, EventArgs e)
         {
@@ -79,7 +82,7 @@ namespace LibraryManagementSystem
                             "(book_title, author, published_date, status, image, date_insert) " +
                             "VALUES(@bookTitle, @author, @published_date, @status, @image, @dateInsert)";
 
-                        string path = Path.Combine(@"C:\Users\WINDOWS 10\source\repos\LibraryManagementSystem\LibraryManagementSystem\Books_Directory\" +
+                        string path = Path.Combine(@"C:\Users\marko\Desktop\Uet\Viti III\Programim 2\Library-Management-System-using-CSharp-main\LibraryManagementSystem\LibraryManagementSystem\Books_Directory" +
                             addBooks_bookTitle.Text + addBooks_author.Text.Trim() + ".jpg");
 
                         string directoryPath = Path.GetDirectoryName(path);
