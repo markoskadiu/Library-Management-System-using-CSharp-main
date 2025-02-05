@@ -29,8 +29,8 @@ namespace LibraryManagementSystem
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.bookIssue_status = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -56,8 +56,8 @@ namespace LibraryManagementSystem
             this.bookIssue_name = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bookIssue_picture)).BeginInit();
             this.panel2.SuspendLayout();
@@ -66,7 +66,7 @@ namespace LibraryManagementSystem
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.bookIssue_status);
             this.panel1.Controls.Add(this.label10);
@@ -102,8 +102,8 @@ namespace LibraryManagementSystem
             this.bookIssue_status.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bookIssue_status.FormattingEnabled = true;
             this.bookIssue_status.Items.AddRange(new object[] {
-            "Return",
-            "Not Return"});
+            "I Kthyer",
+            "Jo i Kthyer"});
             this.bookIssue_status.Location = new System.Drawing.Point(567, 15);
             this.bookIssue_status.Name = "bookIssue_status";
             this.bookIssue_status.Size = new System.Drawing.Size(137, 24);
@@ -115,13 +115,13 @@ namespace LibraryManagementSystem
             this.label10.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(512, 17);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(49, 16);
+            this.label10.Size = new System.Drawing.Size(51, 16);
             this.label10.TabIndex = 21;
-            this.label10.Text = "Status:";
+            this.label10.Text = "Statusi:";
             // 
             // bookIssue_clearBtn
             // 
-            this.bookIssue_clearBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(128)))), ((int)(((byte)(87)))));
+            this.bookIssue_clearBtn.BackColor = System.Drawing.Color.Purple;
             this.bookIssue_clearBtn.FlatAppearance.BorderSize = 0;
             this.bookIssue_clearBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bookIssue_clearBtn.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -130,13 +130,13 @@ namespace LibraryManagementSystem
             this.bookIssue_clearBtn.Name = "bookIssue_clearBtn";
             this.bookIssue_clearBtn.Size = new System.Drawing.Size(100, 33);
             this.bookIssue_clearBtn.TabIndex = 20;
-            this.bookIssue_clearBtn.Text = "CLEAR";
+            this.bookIssue_clearBtn.Text = "PASTRO";
             this.bookIssue_clearBtn.UseVisualStyleBackColor = false;
             this.bookIssue_clearBtn.Click += new System.EventHandler(this.bookIssue_clearBtn_Click);
             // 
             // bookIssue_deleteBtn
             // 
-            this.bookIssue_deleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(128)))), ((int)(((byte)(87)))));
+            this.bookIssue_deleteBtn.BackColor = System.Drawing.Color.Purple;
             this.bookIssue_deleteBtn.FlatAppearance.BorderSize = 0;
             this.bookIssue_deleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bookIssue_deleteBtn.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -145,13 +145,13 @@ namespace LibraryManagementSystem
             this.bookIssue_deleteBtn.Name = "bookIssue_deleteBtn";
             this.bookIssue_deleteBtn.Size = new System.Drawing.Size(100, 33);
             this.bookIssue_deleteBtn.TabIndex = 19;
-            this.bookIssue_deleteBtn.Text = "DELETE";
+            this.bookIssue_deleteBtn.Text = "FSHI";
             this.bookIssue_deleteBtn.UseVisualStyleBackColor = false;
             this.bookIssue_deleteBtn.Click += new System.EventHandler(this.bookIssue_deleteBtn_Click);
             // 
             // bookIssue_updateBtn
             // 
-            this.bookIssue_updateBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(128)))), ((int)(((byte)(87)))));
+            this.bookIssue_updateBtn.BackColor = System.Drawing.Color.Purple;
             this.bookIssue_updateBtn.FlatAppearance.BorderSize = 0;
             this.bookIssue_updateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bookIssue_updateBtn.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -160,13 +160,13 @@ namespace LibraryManagementSystem
             this.bookIssue_updateBtn.Name = "bookIssue_updateBtn";
             this.bookIssue_updateBtn.Size = new System.Drawing.Size(100, 33);
             this.bookIssue_updateBtn.TabIndex = 18;
-            this.bookIssue_updateBtn.Text = "UPDATE";
+            this.bookIssue_updateBtn.Text = "PERDITESO";
             this.bookIssue_updateBtn.UseVisualStyleBackColor = false;
             this.bookIssue_updateBtn.Click += new System.EventHandler(this.bookIssue_updateBtn_Click);
             // 
             // bookIssue_addBtn
             // 
-            this.bookIssue_addBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(128)))), ((int)(((byte)(87)))));
+            this.bookIssue_addBtn.BackColor = System.Drawing.Color.Purple;
             this.bookIssue_addBtn.FlatAppearance.BorderSize = 0;
             this.bookIssue_addBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bookIssue_addBtn.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -175,7 +175,7 @@ namespace LibraryManagementSystem
             this.bookIssue_addBtn.Name = "bookIssue_addBtn";
             this.bookIssue_addBtn.Size = new System.Drawing.Size(100, 33);
             this.bookIssue_addBtn.TabIndex = 17;
-            this.bookIssue_addBtn.Text = "ADD";
+            this.bookIssue_addBtn.Text = "SHTO";
             this.bookIssue_addBtn.UseVisualStyleBackColor = false;
             this.bookIssue_addBtn.Click += new System.EventHandler(this.bookIssue_addBtn_Click);
             // 
@@ -190,11 +190,11 @@ namespace LibraryManagementSystem
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(297, 120);
+            this.label9.Location = new System.Drawing.Point(293, 120);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(51, 16);
+            this.label9.Size = new System.Drawing.Size(47, 16);
             this.label9.TabIndex = 15;
-            this.label9.Text = "Return:";
+            this.label9.Text = "Kthimi:";
             this.label9.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // bookIssue_issueDate
@@ -208,11 +208,11 @@ namespace LibraryManagementSystem
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(305, 86);
+            this.label8.Location = new System.Drawing.Point(285, 86);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(43, 16);
+            this.label8.Size = new System.Drawing.Size(55, 16);
             this.label8.TabIndex = 13;
-            this.label8.Text = "Issue:";
+            this.label8.Text = "Lëshimi:";
             this.label8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // bookIssue_picture
@@ -240,9 +240,9 @@ namespace LibraryManagementSystem
             this.label7.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(297, 51);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 16);
+            this.label7.Size = new System.Drawing.Size(46, 16);
             this.label7.TabIndex = 10;
-            this.label7.Text = "Author:";
+            this.label7.Text = "Autori:";
             // 
             // bookIssue_bookTitle
             // 
@@ -258,11 +258,11 @@ namespace LibraryManagementSystem
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(279, 16);
+            this.label6.Location = new System.Drawing.Point(263, 18);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 16);
+            this.label6.Size = new System.Drawing.Size(77, 16);
             this.label6.TabIndex = 8;
-            this.label6.Text = "Book Title:";
+            this.label6.Text = "Titulli i Librit";
             // 
             // bookIssue_id
             // 
@@ -276,11 +276,11 @@ namespace LibraryManagementSystem
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(46, 17);
+            this.label5.Location = new System.Drawing.Point(18, 17);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(59, 16);
+            this.label5.Size = new System.Drawing.Size(81, 16);
             this.label5.TabIndex = 6;
-            this.label5.Text = "Issue ID:";
+            this.label5.Text = "ID e Lëshimit";
             // 
             // bookIssue_email
             // 
@@ -294,9 +294,9 @@ namespace LibraryManagementSystem
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(60, 120);
+            this.label4.Location = new System.Drawing.Point(52, 120);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 16);
+            this.label4.Size = new System.Drawing.Size(43, 16);
             this.label4.TabIndex = 4;
             this.label4.Text = "Email:";
             // 
@@ -312,11 +312,11 @@ namespace LibraryManagementSystem
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(37, 88);
+            this.label3.Location = new System.Drawing.Point(25, 87);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 16);
+            this.label3.Size = new System.Drawing.Size(70, 16);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Contact #:";
+            this.label3.Text = "Nr. Kontakt";
             // 
             // bookIssue_name
             // 
@@ -332,13 +332,13 @@ namespace LibraryManagementSystem
             this.label2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(57, 52);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 16);
+            this.label2.Size = new System.Drawing.Size(38, 16);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Name:";
+            this.label2.Text = "Emri:";
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel2.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Controls.Add(this.label1);
@@ -348,52 +348,53 @@ namespace LibraryManagementSystem
             this.panel2.Size = new System.Drawing.Size(845, 314);
             this.panel2.TabIndex = 1;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(128)))), ((int)(((byte)(87)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dataGridView1.EnableHeadersVisualStyles = false;
+            this.dataGridView1.Location = new System.Drawing.Point(21, 55);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.ControlLight;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.dataGridView1.RowHeadersVisible = false;
+            this.dataGridView1.Size = new System.Drawing.Size(803, 237);
+            this.dataGridView1.TabIndex = 2;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick_1);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(17, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 19);
+            this.label1.Size = new System.Drawing.Size(192, 19);
             this.label1.TabIndex = 1;
-            this.label1.Text = "All Issued Books";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(128)))), ((int)(((byte)(87)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dataGridView1.EnableHeadersVisualStyles = false;
-            this.dataGridView1.Location = new System.Drawing.Point(21, 55);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.ControlLight;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(803, 237);
-            this.dataGridView1.TabIndex = 2;
-            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick_1);
+            this.label1.Text = "Të Gjithë Librat e Lëshuar";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // IssueBooks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Indigo;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "IssueBooks";

@@ -29,8 +29,8 @@ namespace LibraryManagementSystem
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
@@ -72,27 +72,27 @@ namespace LibraryManagementSystem
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(128)))), ((int)(((byte)(87)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(128)))), ((int)(((byte)(87)))));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView1.EnableHeadersVisualStyles = false;
             this.dataGridView1.Location = new System.Drawing.Point(15, 58);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.ControlLight;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.ControlLight;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.Size = new System.Drawing.Size(521, 447);
             this.dataGridView1.TabIndex = 1;
@@ -104,9 +104,10 @@ namespace LibraryManagementSystem
             this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(15, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 23);
+            this.label1.Size = new System.Drawing.Size(153, 23);
             this.label1.TabIndex = 0;
-            this.label1.Text = "All Issued Books";
+            this.label1.Text = "Librat në gjëndje";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel1
             // 
@@ -133,7 +134,7 @@ namespace LibraryManagementSystem
             // 
             // addBooks_importBtn
             // 
-            this.addBooks_importBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(128)))), ((int)(((byte)(87)))));
+            this.addBooks_importBtn.BackColor = System.Drawing.Color.Purple;
             this.addBooks_importBtn.FlatAppearance.BorderSize = 0;
             this.addBooks_importBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addBooks_importBtn.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -142,13 +143,13 @@ namespace LibraryManagementSystem
             this.addBooks_importBtn.Name = "addBooks_importBtn";
             this.addBooks_importBtn.Size = new System.Drawing.Size(100, 23);
             this.addBooks_importBtn.TabIndex = 23;
-            this.addBooks_importBtn.Text = "Import";
+            this.addBooks_importBtn.Text = "Zgjidh";
             this.addBooks_importBtn.UseVisualStyleBackColor = false;
             this.addBooks_importBtn.Click += new System.EventHandler(this.addBooks_importBtn_Click);
             // 
             // addBooks_clearBtn
             // 
-            this.addBooks_clearBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(128)))), ((int)(((byte)(87)))));
+            this.addBooks_clearBtn.BackColor = System.Drawing.Color.Purple;
             this.addBooks_clearBtn.FlatAppearance.BorderSize = 0;
             this.addBooks_clearBtn.FlatAppearance.CheckedBackColor = System.Drawing.Color.DarkSeaGreen;
             this.addBooks_clearBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSeaGreen;
@@ -159,13 +160,13 @@ namespace LibraryManagementSystem
             this.addBooks_clearBtn.Name = "addBooks_clearBtn";
             this.addBooks_clearBtn.Size = new System.Drawing.Size(99, 34);
             this.addBooks_clearBtn.TabIndex = 22;
-            this.addBooks_clearBtn.Text = "CLEAR";
+            this.addBooks_clearBtn.Text = "PASTRO";
             this.addBooks_clearBtn.UseVisualStyleBackColor = false;
             this.addBooks_clearBtn.Click += new System.EventHandler(this.addBooks_clearBtn_Click);
             // 
             // addBooks_deleteBtn
             // 
-            this.addBooks_deleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(128)))), ((int)(((byte)(87)))));
+            this.addBooks_deleteBtn.BackColor = System.Drawing.Color.Purple;
             this.addBooks_deleteBtn.FlatAppearance.BorderSize = 0;
             this.addBooks_deleteBtn.FlatAppearance.CheckedBackColor = System.Drawing.Color.DarkSeaGreen;
             this.addBooks_deleteBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSeaGreen;
@@ -176,7 +177,7 @@ namespace LibraryManagementSystem
             this.addBooks_deleteBtn.Name = "addBooks_deleteBtn";
             this.addBooks_deleteBtn.Size = new System.Drawing.Size(99, 34);
             this.addBooks_deleteBtn.TabIndex = 21;
-            this.addBooks_deleteBtn.Text = "DELETE";
+            this.addBooks_deleteBtn.Text = "Fshij";
             this.addBooks_deleteBtn.UseVisualStyleBackColor = false;
             this.addBooks_deleteBtn.Click += new System.EventHandler(this.addBooks_deleteBtn_Click);
             // 
@@ -185,8 +186,8 @@ namespace LibraryManagementSystem
             this.addBooks_status.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addBooks_status.FormattingEnabled = true;
             this.addBooks_status.Items.AddRange(new object[] {
-            "Available",
-            "Not Available"});
+            "Në gjëndje",
+            "Mbaruar"});
             this.addBooks_status.Location = new System.Drawing.Point(95, 261);
             this.addBooks_status.Name = "addBooks_status";
             this.addBooks_status.Size = new System.Drawing.Size(168, 24);
@@ -198,9 +199,9 @@ namespace LibraryManagementSystem
             this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(40, 269);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 16);
+            this.label3.Size = new System.Drawing.Size(51, 16);
             this.label3.TabIndex = 19;
-            this.label3.Text = "Status:";
+            this.label3.Text = "Gjëndja";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // addBooks_published
@@ -216,14 +217,14 @@ namespace LibraryManagementSystem
             this.label2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(22, 229);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 16);
+            this.label2.Size = new System.Drawing.Size(62, 16);
             this.label2.TabIndex = 17;
-            this.label2.Text = "Published:";
+            this.label2.Text = "Publikimi:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // addBooks_updateBtn
             // 
-            this.addBooks_updateBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(128)))), ((int)(((byte)(87)))));
+            this.addBooks_updateBtn.BackColor = System.Drawing.Color.Purple;
             this.addBooks_updateBtn.FlatAppearance.BorderSize = 0;
             this.addBooks_updateBtn.FlatAppearance.CheckedBackColor = System.Drawing.Color.DarkSeaGreen;
             this.addBooks_updateBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSeaGreen;
@@ -234,13 +235,13 @@ namespace LibraryManagementSystem
             this.addBooks_updateBtn.Name = "addBooks_updateBtn";
             this.addBooks_updateBtn.Size = new System.Drawing.Size(99, 34);
             this.addBooks_updateBtn.TabIndex = 16;
-            this.addBooks_updateBtn.Text = "UPDATE";
+            this.addBooks_updateBtn.Text = "Përditëso";
             this.addBooks_updateBtn.UseVisualStyleBackColor = false;
             this.addBooks_updateBtn.Click += new System.EventHandler(this.addBooks_updateBtn_Click);
             // 
             // addBooks_addBtn
             // 
-            this.addBooks_addBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(128)))), ((int)(((byte)(87)))));
+            this.addBooks_addBtn.BackColor = System.Drawing.Color.Purple;
             this.addBooks_addBtn.FlatAppearance.BorderSize = 0;
             this.addBooks_addBtn.FlatAppearance.CheckedBackColor = System.Drawing.Color.DarkSeaGreen;
             this.addBooks_addBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSeaGreen;
@@ -251,7 +252,7 @@ namespace LibraryManagementSystem
             this.addBooks_addBtn.Name = "addBooks_addBtn";
             this.addBooks_addBtn.Size = new System.Drawing.Size(99, 34);
             this.addBooks_addBtn.TabIndex = 15;
-            this.addBooks_addBtn.Text = "ADD";
+            this.addBooks_addBtn.Text = "Shto";
             this.addBooks_addBtn.UseVisualStyleBackColor = false;
             this.addBooks_addBtn.Click += new System.EventHandler(this.addBooks_addBtn_Click);
             // 
@@ -269,9 +270,9 @@ namespace LibraryManagementSystem
             this.label7.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(38, 190);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 16);
+            this.label7.Size = new System.Drawing.Size(46, 16);
             this.label7.TabIndex = 11;
-            this.label7.Text = "Author:";
+            this.label7.Text = "Autori:";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // addBooks_bookTitle
@@ -286,11 +287,11 @@ namespace LibraryManagementSystem
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(23, 152);
+            this.label6.Location = new System.Drawing.Point(7, 152);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(70, 16);
+            this.label6.Size = new System.Drawing.Size(82, 16);
             this.label6.TabIndex = 9;
-            this.label6.Text = "Book TItle:";
+            this.label6.Text = "Titulli i Librit:";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // addBooks_picture

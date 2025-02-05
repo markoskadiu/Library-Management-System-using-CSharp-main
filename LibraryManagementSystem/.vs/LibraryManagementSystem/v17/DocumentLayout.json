@@ -1,7 +1,48 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\marko\\desktop\\uet\\viti iii\\programim 2\\library-management-system-using-csharp-main\\librarymanagementsystem\\librarymanagementsystem\\addbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\addbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\marko\\desktop\\uet\\viti iii\\programim 2\\library-management-system-using-csharp-main\\librarymanagementsystem\\librarymanagementsystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\marko\\desktop\\uet\\viti iii\\programim 2\\library-management-system-using-csharp-main\\librarymanagementsystem\\librarymanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\marko\\desktop\\uet\\viti iii\\programim 2\\library-management-system-using-csharp-main\\librarymanagementsystem\\librarymanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\marko\\desktop\\uet\\viti iii\\programim 2\\library-management-system-using-csharp-main\\librarymanagementsystem\\librarymanagementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\marko\\desktop\\uet\\viti iii\\programim 2\\library-management-system-using-csharp-main\\librarymanagementsystem\\librarymanagementsystem\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\marko\\desktop\\uet\\viti iii\\programim 2\\library-management-system-using-csharp-main\\librarymanagementsystem\\librarymanagementsystem\\returnbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\returnbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\marko\\desktop\\uet\\viti iii\\programim 2\\library-management-system-using-csharp-main\\librarymanagementsystem\\librarymanagementsystem\\issuebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\issuebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\marko\\desktop\\uet\\viti iii\\programim 2\\library-management-system-using-csharp-main\\librarymanagementsystem\\librarymanagementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\marko\\desktop\\uet\\viti iii\\programim 2\\library-management-system-using-csharp-main\\librarymanagementsystem\\librarymanagementsystem\\issuebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DB41C2C-2AE7-4BDD-AD0E-3F030F14BEC5}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\issuebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +50,129 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\MainForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\MainForm.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\MainForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T22:25:09.741Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T21:37:58.712Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\RegisterForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\RegisterForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T22:29:55.672Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Form1.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\Form1.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T21:35:17.384Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\Dashboard.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\Dashboard.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T21:32:28.424Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddBooks.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\AddBooks.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\AddBooks.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\AddBooks.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\AddBooks.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T21:34:22.848Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReturnBooks.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnBooks.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReturnBooks.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnBooks.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\ReturnBooks.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T22:28:11.11Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IssueBooks.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\IssueBooks.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\IssueBooks.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\IssueBooks.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\IssueBooks.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T21:37:27.652Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\MainForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\MainForm.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\MainForm.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\MainForm.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T22:25:15.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IssueBooks.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\IssueBooks.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\IssueBooks.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\Uet\\Viti III\\Programim 2\\Library-Management-System-using-CSharp-main\\LibraryManagementSystem\\LibraryManagementSystem\\IssueBooks.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\IssueBooks.cs",
+              "ViewState": "AgIAAGQBAAAAAAAAAAAowHMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T22:03:17.017Z",
+              "EditorCaption": ""
             }
           ]
         }

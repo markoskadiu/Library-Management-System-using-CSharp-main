@@ -53,15 +53,15 @@ namespace LibraryManagementSystem
             this.register_showPass.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.register_showPass.Location = new System.Drawing.Point(183, 364);
             this.register_showPass.Name = "register_showPass";
-            this.register_showPass.Size = new System.Drawing.Size(118, 20);
+            this.register_showPass.Size = new System.Drawing.Size(129, 20);
             this.register_showPass.TabIndex = 21;
-            this.register_showPass.Text = "Show Password";
+            this.register_showPass.Text = "Shiko Fjalëkalimin";
             this.register_showPass.UseVisualStyleBackColor = true;
             this.register_showPass.CheckedChanged += new System.EventHandler(this.register_showPass_CheckedChanged);
             // 
             // signIn_btn
             // 
-            this.signIn_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(128)))), ((int)(((byte)(87)))));
+            this.signIn_btn.BackColor = System.Drawing.Color.Indigo;
             this.signIn_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.signIn_btn.FlatAppearance.BorderSize = 0;
             this.signIn_btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.ForestGreen;
@@ -73,7 +73,7 @@ namespace LibraryManagementSystem
             this.signIn_btn.Name = "signIn_btn";
             this.signIn_btn.Size = new System.Drawing.Size(281, 30);
             this.signIn_btn.TabIndex = 20;
-            this.signIn_btn.Text = "SIGN IN";
+            this.signIn_btn.Text = "KYCU";
             this.signIn_btn.UseVisualStyleBackColor = false;
             this.signIn_btn.Click += new System.EventHandler(this.signIn_btn_Click);
             // 
@@ -83,13 +83,13 @@ namespace LibraryManagementSystem
             this.label5.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(116, 468);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(101, 14);
+            this.label5.Size = new System.Drawing.Size(69, 14);
             this.label5.TabIndex = 19;
-            this.label5.Text = "Register Account";
+            this.label5.Text = "Ke Llogari? ";
             // 
             // register_btn
             // 
-            this.register_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(128)))), ((int)(((byte)(87)))));
+            this.register_btn.BackColor = System.Drawing.Color.Indigo;
             this.register_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.register_btn.FlatAppearance.BorderSize = 0;
             this.register_btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.ForestGreen;
@@ -101,7 +101,7 @@ namespace LibraryManagementSystem
             this.register_btn.Name = "register_btn";
             this.register_btn.Size = new System.Drawing.Size(281, 40);
             this.register_btn.TabIndex = 18;
-            this.register_btn.Text = "REGISTER";
+            this.register_btn.Text = "RREGJISTROHU";
             this.register_btn.UseVisualStyleBackColor = false;
             this.register_btn.Click += new System.EventHandler(this.register_btn_Click);
             // 
@@ -121,9 +121,9 @@ namespace LibraryManagementSystem
             this.label4.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(17, 307);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(74, 18);
+            this.label4.Size = new System.Drawing.Size(82, 18);
             this.label4.TabIndex = 16;
-            this.label4.Text = "Password:";
+            this.label4.Text = "Fjalëkalimi: ";
             // 
             // register_username
             // 
@@ -140,24 +140,24 @@ namespace LibraryManagementSystem
             this.label3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(16, 247);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(80, 18);
+            this.label3.Size = new System.Drawing.Size(130, 18);
             this.label3.TabIndex = 14;
-            this.label3.Text = "Username:";
+            this.label3.Text = "Emri i përdoruesit: ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(98, 153);
+            this.label2.Location = new System.Drawing.Point(160, 94);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(132, 23);
+            this.label2.Size = new System.Drawing.Size(111, 23);
             this.label2.TabIndex = 13;
-            this.label2.Text = "Registration Form";
+            this.label2.Text = "RREGJISTRIM";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::LibraryManagementSystem.Properties.Resources.icons8_library_100px;
-            this.pictureBox1.Location = new System.Drawing.Point(107, 51);
+            this.pictureBox1.Location = new System.Drawing.Point(29, 50);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 100);
             this.pictureBox1.TabIndex = 12;
@@ -165,7 +165,7 @@ namespace LibraryManagementSystem
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(128)))), ((int)(((byte)(87)))));
+            this.panel1.BackColor = System.Drawing.Color.Indigo;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -181,7 +181,7 @@ namespace LibraryManagementSystem
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(298, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(15, 16);
+            this.label1.Size = new System.Drawing.Size(14, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "X";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -189,7 +189,7 @@ namespace LibraryManagementSystem
             // register_email
             // 
             this.register_email.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.register_email.Location = new System.Drawing.Point(19, 210);
+            this.register_email.Location = new System.Drawing.Point(19, 197);
             this.register_email.Multiline = true;
             this.register_email.Name = "register_email";
             this.register_email.Size = new System.Drawing.Size(281, 30);
@@ -199,11 +199,11 @@ namespace LibraryManagementSystem
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(16, 189);
+            this.label6.Location = new System.Drawing.Point(16, 176);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(103, 18);
+            this.label6.Size = new System.Drawing.Size(116, 18);
             this.label6.TabIndex = 22;
-            this.label6.Text = "Email Address:";
+            this.label6.Text = "Adresa e Emailit:";
             // 
             // RegisterForm
             // 

@@ -90,6 +90,16 @@ namespace LibraryManagementSystem
                 iForm.refreshData();
             }
         }
+
+        private void greet_label_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dashboard1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
